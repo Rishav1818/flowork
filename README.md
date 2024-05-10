@@ -61,6 +61,10 @@ cd server
 ```bash
 npm i
 ```
+
+Make a .env file and add WEATHER_API_KEY
+
+
 ```bash
 npm run start:dev
 ```
