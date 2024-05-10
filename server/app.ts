@@ -11,7 +11,7 @@ app.use(express.json());
 // Routes
 app.use('/api/weather', weatherRouter);
 
-var server=app.listen(PORT, () => {
+var server = app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
 });
 

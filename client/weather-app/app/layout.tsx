@@ -14,12 +14,12 @@ export default function RootLayout({
         className="min-h-screen bg-black font-sans antialiased text-white"
       >
         <LocationContextProvider>
-            <main className="w-full flex justify-center items-center flex-col">
-              <div className="container sticky z-50 bg-background top-0">
-                <Navbar />
-              </div>
-              <div className="container">{children}</div>
-            </main>
+          <main className="w-full flex justify-center items-center flex-col">
+            <div className="container sticky z-50 bg-background top-0">
+              <Navbar />
+            </div>
+            <div className="container">{children}</div>
+          </main>
         </LocationContextProvider>
       </body>
     </html>

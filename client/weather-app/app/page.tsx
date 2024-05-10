@@ -8,7 +8,7 @@ import {
 import { useEffect } from "react";
 
 export default function Home() {
-  const { weather, setWeather} = useLocationContext();
+  const { weather, setWeather } = useLocationContext();
 
   useEffect(() => {
     const firstFunction = async () => {
