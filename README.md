@@ -36,3 +36,40 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 ## Installation
+
+```bash
+git clone https://github.com/Rishav1818/flowork.git
+```
+Frontend :
+
+```bash
+cd client
+cd weather-app
+```
+```bash
+npm i
+```
+```bash
+npm run dev
+```
+
+Backend :
+
+```bash
+cd server
+```
+```bash
+npm i
+```
+```bash
+npm run start:dev
+```
+
+Testing :
+
+```bash
+cd server
+```
+```bash
+npm run test
+```
